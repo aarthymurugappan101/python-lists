@@ -1,0 +1,16 @@
+numbers = [2,3,5,7,89] # List Datatype
+# print("Before",numbers)
+numbers.append(100)
+# print("After",numbers)
+numbers.append(33)
+# print(numbers)
+
+numbers.insert(2, 66)
+# print(numbers)
+print(numbers)
+numbers.pop()
+print(numbers)
+numbers.pop(1)
+print(numbers)
+numbers.sort()
+print(numbers)
